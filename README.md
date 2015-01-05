@@ -7,7 +7,7 @@ AngularJS is an open-source web app framework that simplify both development and
 ###New Programs, Languages, Technologies employed.  
     
 + [Angular.js](https://angularjs.org/)
-+ [Bower](http://bower.io/)
++ [Bower](http://bower.io/) package manager
 + [Karma](http://karma-runner.github.io/0.12/index.html) test runner
 + Use of a Model View Controller (MVC) design
    
@@ -20,7 +20,7 @@ Also in this walkthrough we're going to build a simple Angular application that 
 + Two-way data-binding
 + Dependency injection
 + Using bower, a package manager for the web
-   
+     
 As always - TDD wherever possible
     
 ###Execution
@@ -41,9 +41,6 @@ The project was completed in the following stages:
 
 Github's API endpoint is heavily rate limited - and we broke it repeatedly! Its something I hadn't previous encountered but it's quite an important consideration when developing Apps using external API's
     
-First time I'd heard the phrase 'Boilerplate' whilst setting up the testing environment. 
+First time I'd heard the phrase 'Boilerplate' whilst setting up the testing environment. Time and again I'm seeing new phrases crop up that take a little bit of time to google and roughly understand. It's making my knowledge of the programming world slightly richer, and more concepts can be put into some kind of context - which wasn't the case before! 
     
-   
-
-
 **END**
