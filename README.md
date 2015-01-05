@@ -29,17 +29,21 @@ The project was completed in the following stages:
    
 + Installed Node, and the package manager for the App (Bower) 
 + Drawn up an index.html page 
-+ Created an Angular module, linking it to the HTML page. 
++ Created an Angular module (gitUserSearchController.js), linking it to the HTML page. 
 + Set up a test environment using **Karma** as a test runner
 + Build an Angular Controller with accompanying unit test
 + Built out some mock search results in a static manner... 
-+ ...then replaced them with dynamic
++ ...then replaced them with Angular magic (2 way data binding) to dynamically render the search results on to the HTML page
++ We wired up the GitHub API to return the actual results from the API
++ Finally we added an auto-complete functionality to the search box so that it runs a search after a User has finished typing
    
 ####Lessons Learned
 
 Github's API endpoint is heavily rate limited - and we broke it repeatedly! Its something I hadn't previous encountered but it's quite an important consideration when developing Apps using external API's
-   
+    
 First time I'd heard the phrase 'Boilerplate' whilst setting up the testing environment. 
+    
+   
 
 
 **END**
